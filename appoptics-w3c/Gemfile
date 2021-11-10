@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+gem 'rack'
+gem 'sinatra'
+gem 'puma'
+
+# gem 'appoptics_apm'
+# gem 'appoptics_apm', git: 'https://github.com/appoptics/appoptics-apm-ruby.git', branch:'NH-2303_w3c_trace_context'
+gem 'appoptics_apm', path: '../gem'
